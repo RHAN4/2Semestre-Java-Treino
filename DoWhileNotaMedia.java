@@ -17,7 +17,6 @@ public class DoWhileNotaMedia {
 
         } while (!notaValida);
 
-        // Leitura e validação da segunda nota
         double notaDois;
         do {
             System.out.println("Digite a segunda nota: ");
@@ -31,8 +30,7 @@ public class DoWhileNotaMedia {
         System.out.println("Nome do aluno: " + nome);
         System.out.println("Média: " + media);
         System.out.println("Situação: ");
-
-        // Verificação da situação do aluno
+        
         if (media >= 7) {
             System.out.println("Aluno aprovado!");
         } else if (media >= 5 && media < 6.9) {
